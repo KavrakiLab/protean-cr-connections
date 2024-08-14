@@ -1,4 +1,4 @@
-FROM argonian1234/apegen2.0@sha256:925684965ac09286cb6fe9e4672282fcf2cd69df1cf4c4fef27dfc3e92bef122
+FROM argonian1234/apegen2.0@sha256:01b3afd77aa923be24bb00f96af51f0b709f6f31239c914b6456a3f6337e363a
 
 # install the notebook package
 RUN python3 -m pip install --no-cache-dir notebook jupyterlab
