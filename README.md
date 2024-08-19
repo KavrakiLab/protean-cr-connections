@@ -13,6 +13,7 @@ This repo currently contains two jupyter notebooks, with more ITCR connections t
 
 There are two ways to use this particular repo:
 1) Using the binder link here:[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/KavrakiLab/protean-cr-connections/HEAD)
+
 **IMPORTANT**: Binder is highly unstable on our end, and it might be the case that the link above won't work for you, as building the image properly largely is on binder's side. In case this happens, see 2). 
 
 2) Cloning the repo and run examples *locally*. 
