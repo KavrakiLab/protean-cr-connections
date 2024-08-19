@@ -6,7 +6,7 @@ Repository that connects PROTEAN-CR to other related tools in the ITCR Network!
 
 This repo currently contains two jupyter notebooks, with more ITCR connections to come in the future:
 - One examples that runs the APE-Gen2.0 software with a selected peptide and MHC allele.
-- One example that scans the **CEDAR database**, a cancer Epitope Database which houses T cell peptidic epitopes (see more [here](https://cedar.iedb.org/) for *Hepatitis B-derived peptides* and models these peptides structurally with APE-Gen2.0. Such a workflow can be easily customized for peptides of different origins (viral, tumor), and with different arguments, customing the workflow to one's needs.
+- One example that scans the **CEDAR database**, a cancer Epitope Database which houses T cell peptidic epitopes (see more [here](https://cedar.iedb.org/)) for *Hepatitis B-derived peptides* and models these peptides structurally with APE-Gen2.0. Such a workflow can be easily customized for peptides of different origins (viral, tumor), and with different arguments, customing the workflow to one's needs.
 - More connections with ITCR tools will follow, stay in touch for changes!
 
 ## Usage
@@ -26,7 +26,7 @@ This will create a docker image named `apegen2.0-binder-image` on your system th
 ```
 docker run -it --rm -v $(pwd):/home/binderuser -p 8888:8888 apegen2.0-binder-image jupyter notebook --NotebookApp.default_url=/lab/ --ip=0.0.0.0 --port=8888
 ```
-This will create a docker container with a jupyter notebook instance that you have access to. Following the provided link with the notebook token will direct you to an interface where you can use the workflows created. 
+This will create a docker container with a jupyter notebook instance that you have access to. Following the provided link with the notebook token will direct you to an interface where you can use the workflows provided. 
 
 ## References
 
